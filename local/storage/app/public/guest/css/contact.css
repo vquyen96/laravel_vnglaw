@@ -1,0 +1,160 @@
+#main{
+	margin-bottom: 175px;
+}
+#bg-main-top{
+	background: url('../../images/image.png') no-repeat center/cover;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+}
+#main-top{
+	padding-left: 80px;
+}
+#main-top h2{
+	font-size: 64px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	margin: 20px 0;
+}
+#main-top p{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	line-height: 20px;
+}
+#form-contact{
+	margin-top: -150px;
+	box-shadow: #565555 0px 0px 2px 0px;
+}
+#form-contact .col-md-8, #form-contact .col-sm-8, #form-contact .col-xs-12{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#form-contact .row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#form {
+	padding: 65px 100px;
+	background: #fff;
+
+}
+#form h3{
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #184175;
+}
+
+#form input[type=text],#form input[type=email]{
+	width: 100%;
+	height: 60px;
+	margin:25px 0;
+	border: 1px #ccc solid;
+	padding-left: 15px;
+
+}
+#form input[type=text]::placeholder,#form input[type=email]::placeholder{
+	font-style: italic;
+}
+#form textarea{
+	margin:25px 0;
+	width: 100%;
+	height: 140px;
+	padding: 15px;
+	border: 1px #ccc solid;
+}
+#form textarea::placeholder{
+	font-style: italic;
+
+}
+#form input[type=submit]{
+	width: 50%;
+	height: 65px;
+	text-align: center;
+	background: none;
+	border: 1px #184175 solid;
+	color: #666666;
+	font-weight: bold;
+	font-size: 24px;
+}
+#brochure {
+	background: #F58320;
+	padding: 65px 30px 0 30px;
+}
+#brochure a{
+	text-decoration: none;
+}
+#brochure h3{
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #fff;
+}
+#brochure p{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	text-align: justify;
+	margin: 25px 0;
+}
+#download{
+	margin-top: 50px;
+	width: 155px;
+	height: 45px;
+	border: #fff 1px solid;
+	position: relative;
+}
+#download img{
+	position: absolute;
+	top: 17px;
+	left: 25px;
+}
+#download p{
+	margin: 0px;
+	line-height: 45px;
+	text-align: center;
+}
+@media screen and (max-width: 768px){
+        #form-contact {
+             margin-top: -110px;
+        }
+	#main-top{
+		
+		padding-left: 30px;
+	}
+	#main-top h2 {
+		font-size: 36px;
+	}
+	#form {
+
+		padding: 35px 15px;
+		background: #fff;
+
+	}
+	#form input[type="text"], #form input[type="email"] {
+		height: 45px;
+	}
+	#form textarea {
+		height: 115px;
+	}
+	#form input[type="submit"] {
+
+		width: 185px;
+		height: 45px;
+	}
+	#main{
+		margin-bottom: 100px;
+	}
+	#brochure{
+		height: 500px !important;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	#form-contact{
+		margin-top: -140px;
+	}
+	
+}

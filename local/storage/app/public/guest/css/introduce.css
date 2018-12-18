@@ -1,0 +1,284 @@
+#main{
+	margin-bottom: 175px;
+}
+#bg-main-top{
+	background: url('../../images/image.png') no-repeat center/cover;
+	height: 70vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+#main-top{
+	padding-left: 80px;
+	
+}
+#gioi-thieu{
+	padding-top: 40px;
+	background: #F58320;
+	height: 260px;
+	padding-left: 20%;
+	padding-right: 20px;
+}
+#chi-tiet{
+	padding-top: 40px;
+	padding-left: 50px;
+	background: #184175;
+	height: 260px;
+}
+
+#content-1 .container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#content-1 .col-md-8{
+	padding-right: 0;
+}
+#content-1 .col-md-4{
+	padding-left: 0px;
+}
+#gioi-thieu h3{
+	color: #fff;
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+#gioi-thieu p{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: justify;
+	margin-top: 30px;
+}
+#chi-tiet p{
+	margin-bottom: 40px;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	line-height: 20px;
+}
+.tom-tat{
+	margin-top: 20px;
+}
+.title{
+	line-height: 20px;
+	color: #000;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+.bottom{
+	margin-top: 30px;
+	line-height: 20px;
+	color: #000;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-align: justify;
+}
+#full-images-1 {
+	height: 775px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 75px;
+}
+#full-images-1 img {
+	/*  height: 100%;*/
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#bg-img{
+	background: #184175;
+	position: absolute;
+	bottom: -30px;
+	background-position: center;
+	width: 193px;
+	height: 300px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -1;
+}
+#content-right{
+	margin-top: 120px;
+	padding-left: 30px;
+}
+#content-3{
+	margin-top: 90px;
+}
+.img {
+	height: 410px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+
+}
+.img img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.name-staff{
+	padding-top: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #F58320;
+	height: 90px;
+	text-align: center;
+	opacity: 0.9;
+}
+.name-staff p{
+
+	line-height: 25px;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}	
+.name-staff span{
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+}
+
+.thong-tin{
+	background: #184175;
+	height: 410px;
+
+}
+.thong-tin p{
+	text-align: justify;
+	padding: 40px 20px;
+	line-height: 25px;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.staff .col-md-6,.staff .col-sm-6,.staff .col-xs-6{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.staff{
+	margin-top: 60px;
+	padding: 0 15px;
+}
+#gioi-thieu-2{
+	margin-top: 60px;
+}
+.heading-2-xs{
+	display: none;
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+	#gioi-thieu {
+		height: 290px;
+		
+	}
+	#chi-tiet {
+		height: 290px;
+	}
+}
+@media screen and (max-width: 768px){
+	#content-2{
+		padding-bottom: 50px;
+	}
+	
+	#gioi-thieu h3{
+		font-size: 24px;
+	}
+	#gioi-thieu{
+		height: unset;
+		padding-bottom: 40px;
+		padding-right: 15px;
+	}
+	#main-top {
+		padding-left: 30px;
+	}
+	#content-right {
+
+		margin-top: 60px;
+		padding-left: 0px;
+	}
+	#gioi-thieu-2{
+		display: none;
+	}
+	.heading-2-xs{
+		display: block;
+		color: #888888;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+		text-transform: uppercase;
+	}
+	.thong-tin p {
+
+		padding: 8px 10px;
+		line-height: 22px;
+		font-size: 14px;
+	}
+	#main{
+		margin-bottom: 0px;
+	}
+	#full-images-1 {
+
+		height: 500px;
+	}
+	#gioi-thieu {
+
+		padding-left: 15px;
+	}
+	#gioi-thieu p {
+
+		color: #fff;
+		font-size: 14px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 500;
+		line-height: 18px;
+		text-align: justify;
+		margin-top: 10px;
+	}
+	#chi-tiet p {
+
+		
+		font-size: 14px;
+	}
+	#content-1 .container-fluid {
+
+		padding-right: 15px; 
+	}
+	#content-1 .col-md-4 {
+		padding-right: 0;
+	}
+	#chi-tiet{
+		height: unset;
+		padding-bottom: 1px;
+		padding-left: 30px;
+	}
+	.img{
+		height: 260px;
+	}
+	.thong-tin{
+		height: 260px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	#gioi-thieu{
+		padding-left: 10%;
+	}
+        #chi-tiet{
+		padding-left: 20px;
+		padding-right: 15px;
+	}
+
+
+}

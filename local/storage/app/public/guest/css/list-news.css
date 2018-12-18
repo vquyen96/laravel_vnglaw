@@ -1,0 +1,129 @@
+#main{
+	margin-bottom: 175px;
+}
+#bg-main-top{
+	background: url('../../images/image.png') no-repeat center/cover;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+}
+#main-top{
+	padding-left: 80px;
+}
+#main-top h2{
+	font-size: 64px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	margin: 20px 0;
+}
+#main-top p{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	line-height: 20px;
+}
+#content{
+	margin-top: 150px;
+}
+.news{
+	height: 505px;
+	box-shadow: #ccc 0px 2px 8px 1px;
+	margin-bottom: 50px;
+	position: relative;
+}
+.title,.summary,.date-time {
+	margin-top: 20px;
+	padding: 0 15px;	
+}
+.title p{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #333333;
+	line-height: 25px;
+	text-align: justify;
+	height: 65px;
+}
+.date-time p{
+	color: #C4C4C4;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+}
+.summary p{
+	color:#333333;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	line-height: 20px;
+}
+.button{
+	margin-left: 15px;
+	margin-top: 20px;
+	height: 40px;
+	width: 155px;
+	border: 1px solid #184175;
+	display: block;
+	position: absolute;
+	bottom: 20px;
+}
+.button img{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+
+}
+.button p{
+	text-align: center;
+	line-height: 40px;
+	color: #666666;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+.pagination > li > a, .pagination > li > span{
+	border: unset;
+	color: #C4C4C4;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	float: left;
+	margin-right: 0px;
+}
+
+.pagination > .active > span{
+	color: #000;
+	background-color: unset;
+	border-color: unset;
+}
+.full-images {
+	height: 239px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.full-images img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.button, a.button {
+    position: absolute;
+}
+@media screen and (max-width: 768px){
+	#main-top h2 {
+		font-size: 36px;
+	}
+	#main-top {
+		padding-left: 30px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	#content .col-md-4 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
